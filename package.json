@@ -25,10 +25,12 @@
     "url": "https://github.com/hookex/react-babylon-spring/issues"
   },
   "homepage": "https://github.com/hookex/react-babylon-spring#readme",
+  "module": "dist/react-babylon-spring.js",
+  "typings": "dist/react-babylon-spring.d.ts",
   "dependencies": {
     "@react-spring/animated": "^9.0.0-rc.3",
     "@react-spring/core": "^9.0.0-rc.3",
-    "@react-spring/shared": "^9.0.0-rc.3",
+    "@react-spring/shared": "^9.0.0-rc.3"
   },
   "peerDependencies": {
     "react": ">=16.13",
