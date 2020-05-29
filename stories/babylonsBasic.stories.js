@@ -1,7 +1,7 @@
 import React from 'react'
 import {Engine, Scene} from 'react-babylonjs';
 import {Vector3} from '@babylonjs/core/Maths/math'
-import '../../style.css'
+import './style.css'
 
 export default {title: 'Babylon Basic'};
 
