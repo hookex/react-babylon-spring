@@ -4,7 +4,9 @@
   "description": "Build spring-physics based 3D animation with the power of react-babylonjs and react-spring.",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "storybook": "start-storybook -p 6006 -s ./storyboard-site",
+    "build-storybook": "build-storybook -o storybook-static -s ./storyboard-site"
   },
   "repository": {
     "type": "git",
@@ -28,13 +30,17 @@
   "module": "dist/react-babylon-spring.js",
   "typings": "dist/react-babylon-spring.d.ts",
   "dependencies": {
-    "@react-spring/animated": "^9.0.0-rc.3",
-    "@react-spring/core": "^9.0.0-rc.3",
-    "@react-spring/shared": "^9.0.0-rc.3"
+    "@react-spring/animated": "9.0.0-rc.3",
+    "@react-spring/core": "9.0.0-rc.3",
+    "@react-spring/shared": "9.0.0-rc.3"
   },
   "peerDependencies": {
     "react": ">=16.13",
     "react-dom": ">=16.13",
+    "@babylonjs/core": "4.x",
+    "@babylonjs/gui": "4.x",
+    "@babylonjs/loaders": "4.x",
+    "react-reconciler": "0.x",
     "react-babylonjs": "^2.2.0"
   },
   "devDependencies": {
@@ -42,6 +48,8 @@
     "@babylonjs/gui": "^4.1.0",
     "@babylonjs/loaders": "^4.1.0",
     "@babylonjs/procedural-textures": "^4.1.0",
+    "@rollup/plugin-json": "^4.0.3",
+    "@rollup/plugin-typescript": "^4.1.2",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-info": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
@@ -51,16 +59,19 @@
     "@storybook/react": "^5.3.19",
     "@storybook/source-loader": "^5.3.19",
     "@storybook/theming": "^5.3.19",
-    "storybook": "^5.3.19",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-babylonjs": "^2.1.0",
+    "react-dom": "^16.13.1",
+    "react-reconciler": "^0.25.1",
     "rollup": "^2.10.9",
     "rollup-plugin-terser": "^6.1.0",
     "rollup-plugin-typescript2": "^0.27.1",
-    "@rollup/plugin-json": "^4.0.3",
-    "@rollup/plugin-typescript": "^4.1.2",
-    "typescript": "^3.8.0",
+    "storybook": "^5.3.19",
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.17.0",
-    "tslint-config-standard": "^8.0.1"
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.8.0"
   },
   "publishConfig": {
     "directory": "dist"
