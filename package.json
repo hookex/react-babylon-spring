@@ -1,6 +1,6 @@
 {
   "name": "react-babylon-spring",
-  "version": "1.0.0",
+  "version": "1.0.1-0",
   "description": "Build spring-physics based 3D animation with the power of react-babylonjs and react-spring.",
   "main": "index.js",
   "scripts": {
