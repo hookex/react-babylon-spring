@@ -3,7 +3,6 @@ import {Engine, Scene} from 'react-babylonjs';
 import {Vector3} from '@babylonjs/core/Maths/math'
 import './style.css'
 
-export default {title: 'Babylon Basic'};
 
 export const DefaultPlayground = () => (
   <div style={{flex: 1, display: 'flex'}}>
