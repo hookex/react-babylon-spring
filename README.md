@@ -11,16 +11,17 @@
 </p>
 
 
-# react-babylon-spring
+react-babylon-spring
+=====
 Build spring-physics based 3D animation with the power of react-babylonjs and react-spring.
 
-# Demo
+## Demo
 https://hooke.life/react-babylon-spring/
 
-# How to Install
+## Install
 ```
 npm i react-babylon-spring
 ```
 
-# Usage
+## Usage
 https://github.com/hookex/react-babylon-spring/tree/master/stories
