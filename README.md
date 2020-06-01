@@ -15,7 +15,10 @@ react-babylon-spring
 =====
 Build spring-physics based 3D animation with the power of react-babylonjs and react-spring.
 
-## Demo
+[![NPM version](http://img.shields.io/npm/v/react-babylon-spring.svg?style=flat-square)](https://www.npmjs.com/package/react-babylon-spring) 
+[![NPM downloads](http://img.shields.io/npm/dm/react-babylon-spring.svg?style=flat-square)](https://www.npmjs.com/package/react-babylon-spring)
+
+# Demo
 https://hooke.life/react-babylon-spring/
 
 ## Install
