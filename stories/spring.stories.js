@@ -3,7 +3,8 @@ import {Engine, Scene, useHover} from 'react-babylonjs';
 import { Vector3, Color3 } from '@babylonjs/core/Maths/math';
 import {useSprings, useSpring, animated} from '../dist/react-babylon-spring';
 import './style.css'
-export default {title: 'basic'};
+
+export default {title: 'react babylon spring'};
 
 const getRandomColor = (function () {
   // const Colors = ['#4F86EC', '#D9503F', '#F2BD42', '#58A55C'];
@@ -95,7 +96,7 @@ const WithSpring = () => {
   )
 }
 
-export const ReactSpring = () => (
+export const BoxesAnimation = () => (
   <div style={{flex: 1, display: 'flex'}}>
     <Engine antialias adaptToDeviceRatio canvasId='babylonJS'>
       <Scene>
@@ -104,7 +105,3 @@ export const ReactSpring = () => (
     </Engine>
   </div>
 );
-
-ReactSpring.story = {
-  name: 'react-spring'
-}
