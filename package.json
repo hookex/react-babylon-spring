@@ -61,7 +61,7 @@
     "@storybook/theming": "^5.3.19",
     "babel-loader": "^8.1.0",
     "react": "^16.13.1",
-    "react-babylonjs": "^2.1.0",
+    "react-babylonjs": "^2.2.1-beta.1",
     "react-dom": "^16.13.1",
     "react-reconciler": "^0.25.1",
     "rollup": "^2.10.9",

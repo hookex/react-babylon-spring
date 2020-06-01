@@ -15,6 +15,6 @@ const host = createHost(primitives, {
   applyAnimatedValues: applyInitialPropsToInstance,
 })
 
-export const animated = host.animated as WithAnimated
+export const animated = host.animated as WithAnimated;
 export * from './animated';
 export * from '@react-spring/core';
