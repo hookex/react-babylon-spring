@@ -7,7 +7,7 @@ coverage
 compiled
 .awcache
 dist
-storybook-static
+#storybook-static
 *.lock
 debug
 git.sh
