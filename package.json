@@ -2,7 +2,7 @@
   "name": "react-babylon-spring",
   "version": "1.0.2",
   "description": "Build spring-physics based 3D animation with the power of react-babylonjs and react-spring.",
-  "main": "index.js",
+  "main": "dist/react-babylon-spring.js",
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006 -s ./storyboard-site",
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/hookex/react-babylon-spring#readme",
   "module": "dist/react-babylon-spring.js",
-  "typings": "dist/react-babylon-spring.d.ts",
+  "typings": "dist/index.d.ts",
   "dependencies": {
     "@react-spring/animated": "9.0.0-rc.3",
     "@react-spring/core": "9.0.0-rc.3",
